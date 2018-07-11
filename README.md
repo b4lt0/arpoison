@@ -1,5 +1,8 @@
 # arpoison
 ARP-poisoning tool
+
+Can conduct mitm attacks spoofing an IP address, sending custom ARP-replies
+
 USAGE:
 <pre><font color="#EF2929"><b>root@B4LT0</b></font>:<font color="#729FCF"><b>~</b></font># ./arpoison -s 192.168.1.15 -t 192.168.1.1 -m E8:CC:18:5B:9D:62
 ./arpoison - Send arbitrary ARP replies
